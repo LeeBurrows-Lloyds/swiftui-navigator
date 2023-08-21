@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		64CB665A2A8CBC9600EA8E8E /* SwiftUINavigatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB66592A8CBC9600EA8E8E /* SwiftUINavigatorApp.swift */; };
-		64CB665C2A8CBC9600EA8E8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB665B2A8CBC9600EA8E8E /* ContentView.swift */; };
 		64CB665E2A8CBC9900EA8E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CB665D2A8CBC9900EA8E8E /* Assets.xcassets */; };
 		64CB66622A8CBC9900EA8E8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CB66612A8CBC9900EA8E8E /* Preview Assets.xcassets */; };
 		64CB666C2A8CBC9900EA8E8E /* SwiftUINavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB666B2A8CBC9900EA8E8E /* SwiftUINavigatorTests.swift */; };
 		64CB66762A8CBC9900EA8E8E /* SwiftUINavigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB66752A8CBC9900EA8E8E /* SwiftUINavigatorUITests.swift */; };
 		64CB66782A8CBC9900EA8E8E /* SwiftUINavigatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB66772A8CBC9900EA8E8E /* SwiftUINavigatorUITestsLaunchTests.swift */; };
+		64CB67922A8CD19F00EA8E8E /* FirstJourney in Frameworks */ = {isa = PBXBuildFile; productRef = 64CB67912A8CD19F00EA8E8E /* FirstJourney */; };
+		64CB67942A8CD19F00EA8E8E /* NavigationManager in Frameworks */ = {isa = PBXBuildFile; productRef = 64CB67932A8CD19F00EA8E8E /* NavigationManager */; };
+		64CB679B2A8CDAC300EA8E8E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 64CB679A2A8CDAC300EA8E8E /* Auth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		64CB66562A8CBC9600EA8E8E /* SwiftUINavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CB66592A8CBC9600EA8E8E /* SwiftUINavigatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigatorApp.swift; sourceTree = "<group>"; };
-		64CB665B2A8CBC9600EA8E8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64CB665D2A8CBC9900EA8E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64CB665F2A8CBC9900EA8E8E /* SwiftUINavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUINavigator.entitlements; sourceTree = "<group>"; };
 		64CB66612A8CBC9900EA8E8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		64CB66712A8CBC9900EA8E8E /* SwiftUINavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CB66752A8CBC9900EA8E8E /* SwiftUINavigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigatorUITests.swift; sourceTree = "<group>"; };
 		64CB66772A8CBC9900EA8E8E /* SwiftUINavigatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64CB678E2A8CC41600EA8E8E /* NavigationManager */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NavigationManager; sourceTree = "<group>"; };
+		64CB678F2A8CC4AA00EA8E8E /* FirstJourney */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FirstJourney; sourceTree = "<group>"; };
+		64CB67992A8CD61100EA8E8E /* Auth */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Auth; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CB67942A8CD19F00EA8E8E /* NavigationManager in Frameworks */,
+				64CB67922A8CD19F00EA8E8E /* FirstJourney in Frameworks */,
+				64CB679B2A8CDAC300EA8E8E /* Auth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +82,14 @@
 		64CB664D2A8CBC9600EA8E8E = {
 			isa = PBXGroup;
 			children = (
+				64CB67992A8CD61100EA8E8E /* Auth */,
+				64CB678F2A8CC4AA00EA8E8E /* FirstJourney */,
+				64CB678E2A8CC41600EA8E8E /* NavigationManager */,
 				64CB66582A8CBC9600EA8E8E /* SwiftUINavigator */,
 				64CB666A2A8CBC9900EA8E8E /* SwiftUINavigatorTests */,
 				64CB66742A8CBC9900EA8E8E /* SwiftUINavigatorUITests */,
 				64CB66572A8CBC9600EA8E8E /* Products */,
+				64CB67902A8CD19F00EA8E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				64CB66592A8CBC9600EA8E8E /* SwiftUINavigatorApp.swift */,
-				64CB665B2A8CBC9600EA8E8E /* ContentView.swift */,
 				64CB665D2A8CBC9900EA8E8E /* Assets.xcassets */,
 				64CB665F2A8CBC9900EA8E8E /* SwiftUINavigator.entitlements */,
 				64CB66602A8CBC9900EA8E8E /* Preview Content */,
@@ -129,6 +139,13 @@
 			path = SwiftUINavigatorUITests;
 			sourceTree = "<group>";
 		};
+		64CB67902A8CD19F00EA8E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +162,11 @@
 			dependencies = (
 			);
 			name = SwiftUINavigator;
+			packageProductDependencies = (
+				64CB67912A8CD19F00EA8E8E /* FirstJourney */,
+				64CB67932A8CD19F00EA8E8E /* NavigationManager */,
+				64CB679A2A8CDAC300EA8E8E /* Auth */,
+			);
 			productName = SwiftUINavigator;
 			productReference = 64CB66562A8CBC9600EA8E8E /* SwiftUINavigator.app */;
 			productType = "com.apple.product-type.application";
@@ -259,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CB665C2A8CBC9600EA8E8E /* ContentView.swift in Sources */,
 				64CB665A2A8CBC9600EA8E8E /* SwiftUINavigatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +456,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theiosdude.SwiftUINavigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,7 +494,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theiosdude.SwiftUINavigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,6 +629,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64CB67912A8CD19F00EA8E8E /* FirstJourney */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirstJourney;
+		};
+		64CB67932A8CD19F00EA8E8E /* NavigationManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NavigationManager;
+		};
+		64CB679A2A8CDAC300EA8E8E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Auth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 64CB664E2A8CBC9600EA8E8E /* Project object */;
 }
